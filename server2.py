@@ -1,3 +1,7 @@
+"""
+server2.py is used for Normal HTTP test
+"""
+
 from sanic import Sanic
 from sanic.response import json
 
