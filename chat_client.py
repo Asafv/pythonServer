@@ -6,6 +6,7 @@ from tkinter import simpledialog
 import grpc
 import proto.chat_pb2_grpc as rpc
 import proto.chat_pb2 as chat
+import model.ChatMessage as chatMessage
 
 address = 'localhost'
 port = 11912
